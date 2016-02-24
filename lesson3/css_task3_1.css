@@ -1,0 +1,21 @@
+ p:first-letter {
+   color: red;
+   font-size: 22px;
+ }
+.background-green {
+  color: white;
+  font-style: italic;
+  background-color: green;
+}
+.orange {
+  color: orange;
+}
+.blue {
+  color: blue;
+}
+ul li{
+  font-weight: bold;
+}
+ol li {
+  font-weight: normal;
+}
