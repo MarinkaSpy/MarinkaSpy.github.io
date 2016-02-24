@@ -7,15 +7,36 @@
   font-style: italic;
   background-color: green;
 }
+
 .orange {
   color: orange;
 }
 .blue {
   color: blue;
 }
+.red {
+  color: red;
+}
+.grey {
+  color: grey;
+}
+.green {
+  color: green;
+}
 ul li{
   font-weight: bold;
 }
 ol li {
   font-weight: normal;
+}
+.table {
+  border: 1px solid black;
+  border-collapse: separate;
+}
+.td {
+  text-align: right;
+}
+.th {
+  font-weight: bold;
+  text-align: center;
 }
