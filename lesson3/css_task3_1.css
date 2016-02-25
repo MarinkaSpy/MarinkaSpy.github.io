@@ -4,10 +4,11 @@
  }
 .background-green {
   color: white;
-  font-style: italic;
   background-color: green;
 }
-
+.italic {
+  font-style: italic;
+}
 .orange {
   color: orange;
 }
@@ -23,20 +24,24 @@
 .green {
   color: green;
 }
-ul li{
+.bold{
   font-weight: bold;
 }
-ol li {
+.normal {
   font-weight: normal;
 }
-.table {
-  border: 1px solid black;
-  border-collapse: separate;
+.student_visit th {
+  padding: 0 15px;
 }
-.td {
-  text-align: right;
-}
-.th {
-  font-weight: bold;
+.student_visit td {
   text-align: center;
+}
+.student_visit td  {
+  background-color: green;
+  color: white;
+}
+.student_visit .st_name {
+  background-color: white;
+  text-align: left;
+  color: orange;
 }
