@@ -40,14 +40,18 @@
   background-color: green;
   color: white;
 }
-.student_visit .st_name {
+.student_visit td:first-child {
   background-color: white;
   text-align: left;
   color: orange;
 }
-.light-blue {
-  background: #ddebf7;
-}
-.beige {
+.color-table  td:nth-child(2n+1) {
   background: #f2f2de;
+}
+.color-table td:first-child {
+  border-color: white;
+}
+
+.color-table tr:nth-child(2n){
+  background: #ddebf7;
 }
