@@ -1,0 +1,23 @@
+.menu {
+  background-color: #A755FD;
+   width: 100%;
+   padding: 0 50px;
+
+}
+body {
+  margin: 0;
+}
+.menu li {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  padding: 5px  20px;
+  cursor: pointer;
+}
+.menu li:hover {
+  background-color: #6B3F9A;
+}
+.menu li.active {
+  background-color: #EEEEEE;
+  color: #A6B3BE;
+}

@@ -45,13 +45,17 @@
   text-align: left;
   color: orange;
 }
-.color-table  td:nth-child(2n+1) {
+.color-table  td:nth-child(2n+3) {
   background: #f2f2de;
-}
-.color-table td:first-child {
-  border-color: white;
 }
 
 .color-table tr:nth-child(2n){
   background: #ddebf7;
+}
+.color-table {
+  border-spacing: 0px;
+}
+.color-table td {
+  padding: 3px;
+  border-bottom: 1px solid grey;
 }
