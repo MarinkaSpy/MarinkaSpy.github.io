@@ -1,18 +1,24 @@
 .menu {
-  background-color: #A755FD;
-   width: 100%;
+   background-color: #A755FD;
+   width: 900px;
    padding: 0 50px;
-
+   margin: auto;
+}
+.holder-menu {
+  background-color: #A755FD
 }
 body {
   margin: 0;
 }
+
 .menu li {
   display: inline-block;
   color: white;
   font-size: 20px;
   padding: 5px  20px;
   cursor: pointer;
+  text-transform: capitalize;
+
 }
 .menu li:hover {
   background-color: #6B3F9A;
@@ -20,4 +26,27 @@ body {
 .menu li.active {
   background-color: #EEEEEE;
   color: #A6B3BE;
+}
+
+.menu_float {
+  background-color: #A755FD;
+}
+.menu_float li:hover {
+  background-color: #EEEEEE;
+  color: #A6B3BE;
+}
+.menu_float li {
+  float: left;
+  color: white;
+  font-size: 20px;
+  padding: 5px  20px;
+  cursor: pointer;
+  text-transform: capitalize;
+
+}
+.menu_float li:nth-last-child(2){
+  float: right;
+}
+.clear {
+  clear:both;
 }
