@@ -50,21 +50,38 @@ body {
 .clear {
   clear:both;
 }
+
 .page-navigation {
   background-color: #FAFAFB;
-  color: #A248D0
+  color: #A248D0;
 }
-
 .page-navigation a:hover {
   background-color: #A248D0;
   color: white;
 }
-.center {
+
+.center li{
   display: inline-block;
+  padding: 5px 3px 5px 0px;
+  vertical-align: middle;
 }
-.page-navigation a:first-child{
-  float: left;
+.number {
+  display: inline-block;
+  border: 1px solid #D8D7D7;
+  border-radius: 5px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
 }
-.page-navigation a:last-child {
-  float: right;
+.center li:first-child {
+  margin-right: 30px;
+}
+.center li:last-child {
+  margin-left: 30px;
+}
+.center li:nth-child(2) {
+  margin-right: 10px;
+}
+.center li:nth-last-child(2) {
+  margin-left: 10px;
 }
