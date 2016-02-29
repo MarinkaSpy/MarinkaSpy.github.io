@@ -50,3 +50,21 @@ body {
 .clear {
   clear:both;
 }
+.page-navigation {
+  background-color: #FAFAFB;
+  color: #A248D0
+}
+
+.page-navigation a:hover {
+  background-color: #A248D0;
+  color: white;
+}
+.center {
+  display: inline-block;
+}
+.page-navigation a:first-child{
+  float: left;
+}
+.page-navigation a:last-child {
+  float: right;
+}
