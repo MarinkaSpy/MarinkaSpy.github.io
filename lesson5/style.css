@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+.menu {
+  background-color: #3AA4FB;
+}
+
+.menu li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;;
+  color: white;
+  padding:10px 25px;
+  font-weight: bold;
+}
