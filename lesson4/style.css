@@ -5,6 +5,9 @@
 }
 .holder-menu {
   background-color: #A755FD;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Economica;
 }
 body {
   margin: 0;
@@ -16,9 +19,6 @@ body {
   font-size: 20px;
   padding: 5px  20px;
   cursor: pointer;
-  text-transform: uppercase;
-  font-weight: bold;
-
 }
 .menu li:hover {
   background-color: #6B3F9A;
@@ -41,8 +41,6 @@ body {
   font-size: 20px;
   padding: 5px  20px;
   cursor: pointer;
-  text-transform: capitalize;
-
 }
 .menu_float li:nth-last-child(2){
   float: right;
