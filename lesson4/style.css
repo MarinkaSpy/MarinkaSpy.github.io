@@ -1,11 +1,10 @@
 .menu {
-   background-color: #A755FD;
    width: 900px;
    padding: 0 50px;
    margin: auto;
 }
 .holder-menu {
-  background-color: #A755FD
+  background-color: #A755FD;
 }
 body {
   margin: 0;
@@ -17,7 +16,8 @@ body {
   font-size: 20px;
   padding: 5px  20px;
   cursor: pointer;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  font-weight: bold;
 
 }
 .menu li:hover {
