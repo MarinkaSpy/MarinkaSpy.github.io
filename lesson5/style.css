@@ -28,7 +28,6 @@ body {
   width: 100%;
   top: 44px;
   display: none;
-
 }
 .main-menu li:hover .holder-menu_second{
   display: block;
@@ -40,5 +39,84 @@ body {
 .sub-menu li {
   color: #878787;
   text-transform: capitalize;
+}
+
+.block {
+  font-family: Helvetica;
+  margin: 50px;
+  border: 4px solid #EE8133;
+  border-radius: 5px;
+  width: 260px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.header {
+  padding: 15px;
+  text-align: center;
+  background-color: #EE8133;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.body {
+  background-color: white;
+  padding: 15px 10px;
+}
+.body_head {
+  color: #35495A;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+}
+.price {
+  text-align: center;
+  color: #35495A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.price__usd{
+  position: relative;
+  bottom: 40px;
+}
+.price__number{
+  font-size: 70px;
+}
+.price__month{
+  position: relative;
+  top: 10px;
+}
+.body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+.list li {
+  margin-bottom: 1px;
+  padding: 5px 10px 5px 20px;
+  color: #A0A5AD;
+}
+.list .fa-check {
+  color: #99BF15;
+  padding-right: 10px;
+}
+.list li:nth-child(odd) {
+  background-color: #EDF5FD;
+}
+.list li:nth-child(even) {
+  background-color: #F5F5F6;
+}
+.btn {
+  width: 100%;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 12px;
+  background: #EE8133;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  margin-top: 20px;
+  text-transform: uppercase;
 
 }
+$ relative
