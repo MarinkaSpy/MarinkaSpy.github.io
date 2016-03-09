@@ -24,3 +24,25 @@
 .comment {
   padding: 20px;
 }
+.comment img {
+  display: inline-block;
+}
+.comment .comment__body {
+  padding: 10px;
+  display: inline-block;
+  background-color: white;
+}
+.comment__header .user-name {
+  display: inline-block;
+  float: left;
+}
+.comment__header .customer {
+  display: inline-block;
+  float: right;
+}
+.comment__header {
+  border-bottom: 1px dotted black;
+}
+.clear {
+  clear: left;
+}
