@@ -24,10 +24,32 @@
 .comment {
   padding: 20px;
 }
+.comment__body1::before{
+  content: '';
+  left: 148px;
+  top: 140px;
+  position: absolute;
+  border: 13px solid transparent;
+  border-right: 20px solid white;
+}
+.comment__body2::before{
+  content: '';
+  left: 838px;
+  top: 140px;
+  position: absolute;
+  border: 13px solid transparent;
+  border-right: 20px solid white;
+}
 .comment img {
+  width: 20%;
   display: inline-block;
 }
-.comment .comment__body {
+.comment .comment__body1, .comment .comment__body2 {
+  margin-top: 2px;
+  min-height: 105px;
+  margin-left: 20px;
+  vertical-align: top;
+  width: 73%;
   padding: 10px;
   display: inline-block;
   background-color: white;
@@ -41,8 +63,15 @@
   float: right;
 }
 .comment__header {
+  padding: 10px;
+  font-style: italic;
+  color: #3070A8;
   border-bottom: 1px dotted black;
 }
 .clear {
   clear: left;
+}
+.comment-text {
+  padding: 5px;
+  line-height: 1.5;
 }
