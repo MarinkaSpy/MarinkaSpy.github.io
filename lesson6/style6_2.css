@@ -37,15 +37,16 @@
   display: inline-block;
 }
 .comment .comment__body {
-  margin-top: 2px;
-  min-height: 105px;
-  margin-left: 20px;
-  vertical-align: top;
-  width: 73%;
-  padding: 10px;
-  display: inline-block;
-  background-color: white;
-  position: relative;
+max-width: 490px;  
+min-height: 105px;
+margin-left: 20px;
+vertical-align: top;
+padding: 10px;
+display: inline-block;
+background-color: white;
+position: relative;
+left: 130px;
+top: -125px;
 }
 .comment__header .user-name {
   display: inline-block;
