@@ -4,17 +4,19 @@ body {
 }
 
 .letter {
+  color: transparent;
+  text-shadow: 0 0 4px black;
   line-height: 1.5;
   text-transform: capitalize;
   display: inline-block;
   font-size: 80%;
   text-align: justify;
-  letter-spacing: 5px;
+
 }
 .table {
   max-width: 330px;
 }
-.line-red {
-  margin: 5px 0;
-  border-bottom: 1px red solid;
+
+.last-line {
+  letter-spacing: 17px;
 }
