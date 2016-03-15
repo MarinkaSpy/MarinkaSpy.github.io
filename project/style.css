@@ -1,0 +1,35 @@
+body {
+  padding: 0 140px;
+}
+.header {
+  padding: 20px;
+}
+.header__icon {
+ display: inline-block;
+ font-size: 25px;
+}
+.header__menu li {
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: grey;
+  padding: 0 10px;
+}
+.header__menu li:hover {
+  color: #3070A8;
+  border-bottom: 1px solid #3070A8;
+}
+.header ul {
+  margin-top: 15px;
+  float: right;
+}
+.blue_letter {
+  color: #3070A8;
+}
+.header__icon .blue_letter {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.clear {
+  clear: both;
+}
