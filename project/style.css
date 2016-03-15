@@ -1,8 +1,12 @@
 body {
   padding: 0 140px;
 }
+.inner-body {
+  border-left: 2px solid #B8F9FA;
+  border-right: 2px solid #B8F9FA;
+}
 .header {
-  padding: 20px;
+  padding: 20px 0px;
 }
 .header__icon {
  display: inline-block;
@@ -13,14 +17,14 @@ body {
   text-transform: uppercase;
   display: inline-block;
   color: grey;
-  padding: 0 10px;
+  padding: 20px 10px;
 }
 .header__menu li:hover {
   color: #3070A8;
   border-bottom: 1px solid #3070A8;
 }
+
 .header ul {
-  margin-top: 15px;
   float: right;
 }
 .blue_letter {
