@@ -1,9 +1,7 @@
-body {
-  padding: 0 140px;
-}
-.inner-body {
-  border-left: 2px solid #B8F9FA;
-  border-right: 2px solid #B8F9FA;
+
+.container {
+  margin: 0 140px;
+
 }
 .header {
   padding: 20px 0px;
@@ -22,6 +20,7 @@ body {
 .header__menu li:hover {
   color: #3070A8;
   border-bottom: 1px solid #3070A8;
+  cursor: pointer;
 }
 
 .header ul {
@@ -36,4 +35,31 @@ body {
 }
 .clear {
   clear: both;
+}
+.page-image {
+  text-align: center;
+  padding: 40px;
+  background-image: url(page-image.jpg);
+  background-size: 100%;
+}
+.page-image__text {
+  word-spacing: 4px;
+  color: white;
+  padding: 40px 220px;
+}
+.page-image__text p:nth-child(1)  {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.page-image__text p:nth-child(2) {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+.page-image__text p:nth-child(3) {
+  font-style: italic;
+  padding: 0 200px;
+}
+.page-image .btn {
+
 }

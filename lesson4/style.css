@@ -21,6 +21,7 @@ body {
   cursor: pointer;
 }
 .menu li:hover {
+  cursor: pointer;
   background-color: #6B3F9A;
 }
 .menu li.active {
