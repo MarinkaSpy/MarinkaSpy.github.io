@@ -1,0 +1,109 @@
+.all-wiget {
+  position: relative;
+}
+.wiget {
+  display: inline-block;
+  font-family: Helvetica;
+  margin: 50px;
+  border-radius: 5px;
+  width: 260px;
+}
+ .wiget.wiget_best{
+  position: absolute;
+  left: 260px;
+  top: -8px;
+ }
+.wiget.wiget_best {
+  border: 4px solid #EE8133;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.wiget.wiget_standart, .wiget.wiget_ultimate {
+  border: 1px solid #EBEDEF;
+}
+.wiget__header {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.wiget_best .wiget__header{
+  padding: 20px 15px;
+  background-color: #EE8133;
+}
+.wiget_standart{
+  background-color: #58C3D5;
+  margin-right: 205px;
+}
+.wiget_ultimate{
+  background-color: #59B99B;
+}
+.wiget__body {
+  background-color: white;
+  padding: 15px 10px;
+}
+.wiget__body .body__head {
+  color: #35495A;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+}
+.wiget .price {
+  text-align: center;
+  color: #35495A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.price__usd{
+  position: relative;
+  bottom: 40px;
+}
+.price__number{
+  font-size: 70px;
+}
+.price__month{
+  position: relative;
+  top: 10px;
+}
+.wiget__body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+.list li {
+  margin-bottom: 1px;
+  padding: 5px 10px 5px 20px;
+  color: #A0A5AD;
+}
+.list .fa-check {
+  color: #99BF15;
+  padding-right: 10px;
+}
+.list li:nth-child(odd) {
+  background-color: #EDF5FD;
+}
+.list li:nth-child(even) {
+  background-color: #F5F5F6;
+}
+.wiget .btn {
+  width: 100%;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.wiget_best .btn {
+  background: #EE8133;
+}
+.wiget_standart .btn {
+  background: #3070A8;
+}
+.wiget_ultimate .btn {
+  background: #3070A8;
+}

@@ -73,12 +73,42 @@
   text-align: center;
   width: 33%;
 }
-
+.circle .fa-lock {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  top: 27px;
+  left: 35px;
+}
+.circle .fa-bolt {
+  position: absolute;
+  color: white;
+  font-size: 55px;
+  top: 25px;
+  left: 35px;
+  transform: rotate(30deg);
+}
+.circle .fa-mobile {
+  position: absolute;
+  color: white;
+  font-size: 55px;
+  top: 25px;
+  left: 38px;
+}
 .circle {
+  position: relative;
+  margin: 0 auto;
 	width: 100px;
 	height: 100px;
 	background-color: #3070A8;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+}
+.signature {
+  padding-top: 10px;
+  font-weight: 200;
+  color: #3070A8;
+  text-transform: uppercase;
+  font-size: 22px;
 }
