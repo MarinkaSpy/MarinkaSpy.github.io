@@ -63,3 +63,22 @@
 .page-image .btn {
 
 }
+.container p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 30px;
+}
+.container td {
+  text-align: center;
+  width: 33%;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background-color: #3070A8;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
