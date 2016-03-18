@@ -5,10 +5,14 @@
   position: absolute;
 }
 .title {
-  margin: 40px;
+  margin: 0;
+  padding: 40px;
   color: #3370A8;
   text-align: center;
   text-transform: uppercase;
+}
+.client-says .row {
+  padding-bottom: 50px;
 }
 .orange_letter {
   color: #EE8133;

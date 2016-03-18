@@ -44,6 +44,9 @@
   background-size: cover;
   position: relative;
 }
+.page-image.page-image_people {
+  background-image: url(people.jpg);
+}
 .image-blackout {
   position: absolute;
   width: 100%;
@@ -51,7 +54,11 @@
   background-color: #3070A8;
   opacity: 0.7;
 }
+.page-image_people .image-blackout{
+  background-color: black;
+}
 .page-image__text {
+  z-index: 3;
   word-spacing: 4px;
   color: white;
   padding: 40px 220px;
@@ -68,6 +75,9 @@
 .page-image__text p:nth-child(3) {
   font-style: italic;
   padding: 0 200px;
+}
+.page-image_people__text {
+  color: white;
 }
 .page-image .btn {
 
