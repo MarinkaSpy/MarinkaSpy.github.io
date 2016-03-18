@@ -37,10 +37,19 @@
   clear: both;
 }
 .page-image {
+  position: relative;
   text-align: center;
-  padding: 40px;
   background-image: url(page-image.jpg);
-  background-size: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+.image-blackout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #3070A8;
+  opacity: 0.7;
 }
 .page-image__text {
   word-spacing: 4px;
