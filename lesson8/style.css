@@ -1,21 +1,52 @@
 .arrow {
-  width: 680px;
+  max-width: 680px;
   height: 40px;
   background-color: #F9CC5C;
   position: relative;
 }
-@mediaquery {
 
-}
-.arrow__input {
-  margin: 3px 0 0px 3px;
-  width: 600px;
-}
+
 .arrow:after {
   border: 20px solid transparent;
   border-left: 20px solid #F9CC5C;
   position: absolute;
   content: '';
-  left: 680px;
-   top: 0px;
+  right: -40px;
+  top: 0px;
+}
+
+.arrow__input {
+  display: block;
+  margin-right: 70px;
+  padding: 3px 0 0 3px;
+}
+.arrow__input input {
+  width: 100%;
+}
+.arrow__seach {
+  position:absolute;
+  top: 3px;
+  right: 10px;
+}
+.arrow_gradient p {
+  padding: 0 0 2px 3px;
+  margin: 0;
+  background-image: linear-gradient(to top, white, #F9CC5C );
+}
+.arrow_gradient {
+  max-width: 700px;
+}
+.arrow_gradient .arrow__seach {
+  right: 30px;
+}
+.arrow_gradient .arrow__input {
+  margin-right: 90px;
+}
+.arrow_gradient::after {
+  position: absolute;
+  border: 20px solid transparent;
+  border-top: 20px solid white;
+  border-right: 20px solid white;
+  border-bottom: 20px solid white;
+  right: -20px;
 }
