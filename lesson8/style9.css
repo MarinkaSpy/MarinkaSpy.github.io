@@ -1,0 +1,10 @@
+.comment__body {
+  width: auto;
+}
+.avatar {
+  float:left;
+}
+.comment {
+  padding-left: 20px;
+  padding-right: 20px;
+}
