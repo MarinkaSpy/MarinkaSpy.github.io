@@ -22,3 +22,6 @@
   color: #637f83;
   margin: 0 0 10px 0;
 }
+.comment__body a {
+  color: #e4551d;
+}
