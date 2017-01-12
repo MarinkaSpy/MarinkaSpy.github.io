@@ -1,0 +1,145 @@
+
+.header {
+  padding: 20px 0px;
+}
+.header__icon {
+ display: inline-block;
+ font-size: 25px;
+}
+.header__menu li {
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: grey;
+  padding: 20px 10px;
+}
+.header__menu li:hover {
+  color: #3070A8;
+  border-bottom: 1px solid #3070A8;
+  cursor: pointer;
+}
+
+.header ul {
+  float: right;
+}
+.blue_letter {
+  color: #3070A8;
+}
+.header__icon .blue_letter {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.clear {
+  clear: both;
+}
+.page-image {
+  position: relative;
+  text-align: center;
+  background-image: url(page-image.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.page-image.page-image_people {
+  background-image: url(people.jpg);
+}
+.image-blackout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #3070A8;
+  opacity: 0.7;
+}
+.page-image_people .image-blackout{
+  background-color: black;
+}
+.page-image__text {
+  position: relative;
+  z-index: 3;
+  word-spacing: 4px;
+  color: white;
+  padding: 40px 220px;
+}
+.page-image__text p:nth-child(1)  {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.page-image__text p:nth-child(2) {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+.page-image__text p:nth-child(3) {
+  font-style: italic;
+}
+.page-image_people__text {
+  color: white;
+  position: relative;
+}
+.page-image .btn {
+  position: relative;
+  margin-bottom: 50px;
+}
+.container p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 30px;
+}
+.container-circles td {
+  text-align: center;
+  width: 33%;
+}
+.container-circles table {
+  margin-bottom: 40px;
+}
+.circle .fa-lock {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  top: 27px;
+  left: 35px;
+}
+.circle .fa-bolt {
+  position: absolute;
+  color: white;
+  font-size: 55px;
+  top: 25px;
+  left: 35px;
+  transform: rotate(30deg);
+}
+.circle .fa-mobile {
+  position: absolute;
+  color: white;
+  font-size: 55px;
+  top: 25px;
+  left: 38px;
+}
+.circle {
+  position: relative;
+  margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background-color: #3070A8;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.signature {
+  padding-top: 10px;
+  font-weight: 200;
+  color: #3070A8;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.contacts {
+  margin: 40px;
+  display: inline-block;
+}
+.item {
+  position: relative;
+}
+.icon {
+  position: absolute;
+  left:-40px;
+  color:#3070A8;
+}

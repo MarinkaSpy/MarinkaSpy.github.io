@@ -1,0 +1,130 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.container-resume {
+  font-family: 'Lato', sans-serif;
+  background-image: url(./image/flow.jpg);
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    -background-size: 100%; /* Современные браузеры */
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 840px;
+}
+/*@media (min-width: 1200px){
+  .container-resume{
+    width: 840px;
+  }
+}
+@media (min-width: 992px){
+  .container-resume{
+    width: 840px;
+  }
+}
+@media (min-width: 768px){
+  .container-resume{
+    width: 840px;
+  }
+}*/
+
+.container-resume_block {
+  margin:5px 20px;
+  background-color: #E7E4E7;
+  border: 2px solid #000000;
+  padding: 20px;
+  position: relative;
+}
+.sidebar {
+  float:left;
+  width:30%;
+}
+.sidebar h1{
+  font-size: 40px;
+}
+.content {
+  float: left;
+  width: 70%;
+
+}
+.round {
+   width: 140px;
+   height: 140px;
+   margin: 30px auto;
+    border-radius: 100px;
+    border: 3px solid #0F0F0F;
+    -box-shadow: 0 0 7px #666;
+    -box-shadow: 0 0 0 3px green, 0 0 13px #333;
+   }
+.clearfix {
+  clear: both;
+}
+
+
+.skills-left {
+  float: left;
+  width: 50%;
+}
+.skills-right {
+  padding-left: 15px;
+  float: left;
+  width: 50%;
+}
+.circle-ul li {
+  display: inline-block;
+}
+.circle-ul{
+  padding-left: 15px;
+}
+.circle  {
+  width: 20px;
+	height: 20px;
+	background: #282C34;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.empty-circle{
+  width: 21px;
+	height: 21px;
+	background: #E7E4E7;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+  box-shadow: inset 0 0 0 2px #282C34;
+}
+.block-works ul {
+   list-style-type: none;
+   font-size: 20px;
+   padding-left: 0;
+}
+
+.item {
+  position: relative;
+  border-left: 2px solid #0F0F0F;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+.item h2{
+  -padding-top: 0px;
+  margin-top: 0;
+  text-transform: uppercase;
+  position: relative;
+  top: -5px;
+
+}
+.marker {
+  position: absolute;
+  width: 20px;
+	height: 20px;
+	background: #BA628C;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+  left: -11px;
+  z-index: 5;
+
+}

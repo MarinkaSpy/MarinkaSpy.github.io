@@ -1,0 +1,228 @@
+.top {
+  vertical-align: top;
+}
+.bottom {
+  vertical-align: bottom;
+}
+ .header {
+  border-bottom: none;
+}
+.header ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.header li{
+  display: inline-block;
+  list-style-type: none;
+}
+.header li a {
+  color: #000000;
+}
+.bar {
+  padding: 20px 0;
+  background-color: #F2F2F2;
+}
+.header .bar-menu {
+  float: right;
+  text-transform: uppercase;
+}
+.bar-menu li {
+  padding: 0 30px;
+  border-right: 1px solid #000000;
+}
+.bar-menu li:last-of-type{
+  border-right: none;
+  padding-right: 0;
+}
+.header__menu {
+  margin: 20px 0px;
+}
+.page-header__menu {
+  margin: 30px 0;
+}
+.menu-pages {
+  font-family: CURSIVE;
+  font-style: italic;
+  font-size: 18px;
+}
+.page-header__menu .title {
+  font-weight: bold;
+}
+.socials {
+  float: right;
+}
+.socials li {
+  margin: 0 10px;
+  border: 2px solid #E2BF8D;
+  border-radius: 20px;
+  -width: 20px;
+  -height: 20px;
+}
+.socials li .fa-facebook {
+  padding: 10px 13px;
+}
+.socials .fa {
+  color: #E2BF8D;
+  padding: 10px;
+}
+.support {
+  margin: 40px 0;
+  display: flex;
+}
+.support-cell {
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+}
+.support-cell__text {
+  padding-left: 60px;
+}
+.support-cell__text h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
+}
+.support-cell__text p{
+  text-transform: capitalize;
+  margin: 0;
+}
+.support .support-left{
+  flex: 32%;
+  color: #ffffff;
+  background-color: #E3C08E;
+  position: relative;
+  margin-right: 30px;
+}
+.right-beige-triangle {
+  position: absolute;
+  border: 33px solid transparent;
+  border-left: 30px solid #E3C08E;
+  top: 0;
+  left: 345px;
+}
+.support .support-middle{
+  padding-left: 40px;
+  flex: 36%;
+  color: #ffffff;
+  background-color: #000000;
+}
+.right-white-triangle {
+  position: absolute;
+  border: 33px solid transparent;
+  border-left: 30px solid #FFFFFF;
+  top: 0;
+  left: 0px;
+}
+.left-white-triangle {
+  position: absolute;
+  border: 33px solid transparent;
+  border-right: 30px solid #ffffff;
+  top: 0;
+  left: 327px;
+}
+.support .support-right {
+  flex: 32%;
+  color: #ffffff;
+  background-color: #E3C08E;
+  margin-left: 30px;
+}
+.left-beige-triangle {
+  position: absolute;
+  border: 33px solid transparent;
+  border-right: 30px solid #E3C08E;
+  top: 0;
+  left: -63px;
+}
+.support .fa {
+  float: left;
+  font-size: 36px;
+  padding-top: 8px;
+}
+.featured img {
+  width: 100%;
+}
+.featured td:not(:last-child) {
+  padding-right: 10px;
+}
+.featured td {
+  position: relative;
+}
+.td-border {
+  position: absolute;
+  border: 2px solid #ffffff;
+  width: 80%;
+  height: 80%;
+  z-index: 2;
+  left: 10%;
+  top: 10%;
+}
+.td-border_tall {
+  height: 90%;
+  top: 5%;
+}
+.recent {
+  border: 1px solid #F0F0F0;
+  padding: 10px 0 0 10px;
+}
+.recent .image {
+  display: inline-block;
+    width: 25%;
+    position: relative;
+}
+.recent img {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px 10px 0;
+}
+.recent .circle-sale {
+ position: absolute;
+ width: 40px;
+ height: 40px;
+ padding-top: 9px;
+ padding-left: 7px;
+ border-radius: 20px;
+ background-color: #F4AA33;
+ color: #ffffff;
+ top: 20px;
+ left: 20px;
+}
+.recent .act-block {
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+  display: inline-block;
+  bottom: 0;
+  padding: 10px;
+}
+.recent .act {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  text-align: center;
+  right: 0;
+}
+.recent .act-triangle-right {
+  vertical-align: bottom;
+  display: inline-block;
+  	border: 20px solid transparent;
+    border-right: 20px solid #000000;
+    border-bottom: 20px solid #000000;
+}
+.recent .act-triangle-left {
+  vertical-align: bottom;
+  display: inline-block;
+  border: 20px solid transparent;
+  	border-bottom: 20px solid #000000;
+   border-left: 20px solid #000000;
+}
+.customers-says {
+  background-color: #E3C08E;
+}
+.page-footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+.page-footer li{
+  display: inline-block;
+}
